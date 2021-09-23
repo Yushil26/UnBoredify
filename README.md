@@ -13,8 +13,8 @@ API: The Bored API - https://www.boredapi.com/
 -----Intsallation instructions-----
 
 WEB:
-    1. Navigate to project folder
-    2. Run npm install
+    1. Run npm install
+    2. Navigate to Builds folder and into Web
     3. Run npx serve web-build
     4. Run on Local or Network
 
