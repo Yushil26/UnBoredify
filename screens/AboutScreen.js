@@ -15,11 +15,10 @@ function AboutScreen(props) {
                 <Text style={styles.myStyle2}>UnBoredifyMe</Text>
                 <Text style={styles.myStyle}>Developer: Yushil Balram</Text>
                 <Text style={styles.myStyle}>How to play:</Text>
-                <Text style={styles.myStyle}>1. Pick an activity type</Text>
-                <Text style={styles.myStyle}>2. Pick the number of people with you</Text>
-                <Text style={styles.myStyle}>3. Pick how much an activity will cost</Text>
-                <Text style={styles.myStyle}>4. Shake your device for new activities</Text>             
-                
+                <Text style={styles.myStyle}>1. Navigate to the UnBoredifyMe page</Text>
+                <Text style={styles.myStyle}>2. Press "Get Activity" or shake your device</Text>
+                <Text style={styles.myStyle}>3. An activty will appear below the button</Text>
+                <Text style={styles.myStyle}>4. Go back to Step 2 for a new activity</Text>            
             </View>
 
         </ImageBackground>

@@ -7,19 +7,19 @@ export default function Footer(props) {
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => RootNavigation.navigate('Welcome')}
-            ><Text>Welcome</Text>
+            ><Text style={styles.myStyle}>Welcome</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => RootNavigation.navigate('UnBoredifyMe')}
-            ><Text>UnBoredifyMe</Text>
+            ><Text style={styles.myStyle}>UnBoredifyMe</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
                 style={styles.button}
                 onPress={() => RootNavigation.navigate('About')}
-            ><Text>About</Text>
+            ><Text style={styles.myStyle}>About</Text>
             </TouchableOpacity>
         </View>
     )
@@ -36,5 +36,12 @@ const styles = StyleSheet.create({
     },
     button: {
         padding: 20
-    }
+    },
+    myStyle:{
+        fontSize: 17,
+        fontFamily:"Roboto",
+        fontWeight: "bold",
+        fontStyle:"normal",
+        color:"black"
+      },
 });
