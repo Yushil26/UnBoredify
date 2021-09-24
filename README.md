@@ -20,7 +20,8 @@ WEB:
 
 IOS:
     1. Navigate to the Builds folder and into IOS
-    2. Install unBoredifyMe.app on your Apple device
+    2. Extract the unBoredifyMe.app folder
+    3. Install unBoredifyMe.app on your Apple device
 
 ANDROID:
     1. Naviagte to the Builds folder and into Android
